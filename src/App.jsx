@@ -7,7 +7,7 @@ import LoginPage from "./components/LoginPage/LoginPage"
 
 
 function App() {
-    const [isLoggedIn, setIsLoggedIn] = useState(JSON.parse(localStorage.getItem("recentlyVisited")) || false)
+    const [isLoggedIn, setIsLoggedIn] = useState(JSON.parse(localStorage.getItem("isLoggedIn")) || false)
     const [recentlyVisited, setRecentlyVisited] = useState(JSON.parse(localStorage.getItem("recentlyVisited")) || [{
         name: { title: 'Mr', first: 'Slaviša', last: 'Kuzmanović' },
         phone: "038-6315-988",
