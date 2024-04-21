@@ -1,0 +1,39 @@
+
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+.image{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+
+.addBtn{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    background-color: rgb(0, 124, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addBtn svg{
+    fill: white;
+    width: 60%;
+}
+
+
+.title{
+    font-size: 20px;
+}
