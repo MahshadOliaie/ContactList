@@ -65,7 +65,6 @@ input:focus-visible {
 }
 
 .medias>div {
-    width: 23px;
     aspect-ratio: 1/1;
     border: 1px solid rgb(230, 230, 230);
     display: flex;
@@ -74,6 +73,10 @@ input:focus-visible {
     border-radius: 50%;
     box-sizing: content-box;
     padding: 12px;
+}
+
+.google svg{
+    width: 23px;
 }
 
 .facebook svg {
